@@ -87,7 +87,8 @@
 	border-radius: 0;
 	}
 	.loading img  {
-	margin: 50%;
+	margin-top: 50%;
+	width: 30%;
 	} 
 	.dest   {
 		width: 45%;

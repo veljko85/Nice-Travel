@@ -213,7 +213,8 @@ a {
 	z-index: 1000;
 }
 .loading img  {
-	margin: 30%;
+	margin-top: 28%;
+	width: 10%;
 }
 .reklame	{
 	width: 50%;
