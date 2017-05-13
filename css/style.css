@@ -218,7 +218,7 @@ a {
 .reklame	{
 	width: 50%;
 	height: 67%;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 1% auto;
 	text-align: center;
 }
 .rekl	{
@@ -311,7 +311,6 @@ a {
 	width: 50%;
 }
 .info-i    {
-	margin-top: 1%;
 	text-align: center;
 }
 
