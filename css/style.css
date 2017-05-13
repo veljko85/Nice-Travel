@@ -25,6 +25,9 @@ h2	{
 h5  {
 	font-size: 0.7vw;
 }
+h4	{
+	font-size: 0.85vw
+}
 h1  {
 	font-size: 1.2vw;
 }
@@ -216,9 +219,7 @@ a {
 	width: 50%;
 	height: 67%;
 	margin: 0 auto 0 auto;
-	 
 	text-align: center;
-
 }
 .rekl	{
 	width: 48%;
@@ -310,10 +311,8 @@ a {
 	width: 50%;
 }
 .info-i    {
-	width: 100%;
-	position: absolute;
+	margin-top: 1%;
 	text-align: center;
-	bottom: -0.7vw;
 }
 
 
