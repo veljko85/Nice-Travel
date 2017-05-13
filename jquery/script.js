@@ -38,7 +38,7 @@ $(document).ready(function(){
 	    $(this).children(".active").show();
 	    $("#background").show();
 	    $(".loading").show();
-	    $(".loading").delay(1000).fadeOut();
+	    $(".loading").delay(700).fadeOut();
 	    $(".wrap").load($(this).attr("href")).hide().fadeIn();
         	return(false);
 	    
