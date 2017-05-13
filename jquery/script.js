@@ -14,6 +14,15 @@ $(document).ready(function(){
 	$(".druga").delay(800).animate({"margin-left": "45%"}, 500);
 	$(".treca").delay(1100).animate({"margin-left": "45%"}, 500); 
 
+	//reklame na sredini
+
+	$(".first").delay(100).fadeIn();
+	$(".second").delay(300).fadeIn();
+	$(".third").delay(500).fadeIn();
+	$(".fourth").delay(700).fadeIn();
+	$(".fifth").delay(900).fadeIn();
+	$(".sixth").delay(1100).fadeIn();
+
 	// navigacija
 
 	$(".ham-men").on("click", function(){
@@ -22,16 +31,25 @@ $(document).ready(function(){
     	$(".nav").slideToggle();
     });
 	$(".lista").click( function(){
+		$(".reklame").hide();
     	$(".active").hide();
 	    $(".unactive").show();
 	    $(this).children(".unactive").hide();
 	    $(this).children(".active").show();
-		$("#background").load($(this).attr("href")).hide().fadeIn();
+	    $("#background").show();
+	    $(".loading").show();
+	    $(".loading").delay(1000).fadeOut();
+	    $(".wrap").load($(this).attr("href")).hide().fadeIn();
         	return(false);
+	    
+		
     });
-
+    
+	
     // Blinking
     
     setInterval(function(){
-    	$(".akt h1, .last h1, .kon-info").toggleClass("blink"); }, 500);
+    	$(".akt h1, .last h1, .kon-info, .rekl").toggleClass("blink"); }, 500);
+
+
 });
