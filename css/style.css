@@ -212,9 +212,34 @@ a {
 	border-radius: 5%;
 	z-index: 1000;
 }
-.loading img  {
-	margin-top: 28%;
-	width: 10%;
+.load-btn  {
+	margin: 28% auto;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border:5px double white;
+	border-right: 5px solid #ffb31a;
+	animation: circle 1s linear infinite;
+}
+.load-btn-sml	{
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	border:5px double white;
+	border-right: 5px solid #1ab2ff;
+	animation: circle 1s linear infinite;
+}
+.load-btn-smlr	{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	border:5px double white;
+	border-right: 5px solid #ff4d88;
+	animation: circle 1s linear infinite;
+}
+@keyframes circle	{
+	0%	{transform: rotate(0deg);}
+	100%	{transform: rotate(360deg);}
 }
 .reklame	{
 	width: 50%;
