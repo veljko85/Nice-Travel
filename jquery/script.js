@@ -26,9 +26,15 @@ $(document).ready(function(){
 	// navigacija
 
 	$(".ham-men").on("click", function(){
-    	$(".ham-btn").toggle()
+    	$(".ham-btn").toggle();
     	$(".ham-cro").toggle();	
-    	$(".nav").slideToggle();
+    	$(".nav").slideToggle( function(){
+			$(".lista").on("click",function(){
+				$(".nav").slideUp();
+				$(".ham-cro").hide();	
+				$(".ham-btn").show();
+    		});
+		});
     });
 	$(".lista").click( function(){
 		$(".reklame").hide();
